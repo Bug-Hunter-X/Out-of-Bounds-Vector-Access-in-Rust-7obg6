@@ -1,0 +1,1 @@
+fn main() { let mut v = vec![1, 2, 3]; let index = 5; match v.get(index) {     Some(value) => println!("Element at index {} is: {}", index, value),     None => println!("Index out of bounds"), } }
