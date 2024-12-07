@@ -1,0 +1,1 @@
+fn main() { let mut v = vec![1, 2, 3]; let index = 5; if index < v.len() { println!("Element at index {} is: {}", index, v[index]); } else { println!("Index out of bounds"); } }
